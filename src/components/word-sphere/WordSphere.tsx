@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-
-// Importing TagCloud package
 import TagCloud from "TagCloud";
 
 const WordSphere = () => {
@@ -11,17 +9,18 @@ const WordSphere = () => {
       const texts = [
         "HTML",
         "CSS",
-        "SASS",
+        "TypeScript",
         "JavaScript",
         "React",
-        "Vue",
-        "Nuxt",
         "NodeJS",
-        "Babel",
-        "Jquery",
-        "ES6",
+        "TailwindCSS",
+        "NextJS",
+        "MongoDB",
+        "Docker",
+        "Python",
+        "Flask",
         "GIT",
-        "GITHUB",
+        "GitHub",
       ];
 
       const options = {
