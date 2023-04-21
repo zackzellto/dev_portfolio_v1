@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import WordSphere from "../components/word-sphere/WordSphere";
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
               href="https://create.t3.gg/en/usage/first-steps"
               target="_blank"
             >
+              <WordSphere />
               <h3 className="text-2xl font-bold">First Steps →</h3>
               <div className="text-lg">
                 Just the basics - Everything you need to know to set up your
