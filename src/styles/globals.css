@@ -5,31 +5,28 @@
 /* Importing google font  */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
 
-.word-shpere {
+.word-sphere {
     position: relative;
     top: 0;
     width: 100%;
-    height: 100vh;
     display: flex;
+    font-family: 'Poppins', sans-serif;
     justify-content: center;
     align-items: center;
-    background: #ffffff;
 }
 
 .tagcloud {
     display: inline-block;
     top: 0;
     left: 0;
-    font-family: 'Paytone One', sans-serif;
-    font-weight: 600;
-    letter-spacing: 0.0625em;
+    font-weight: 700;
+    letter-spacing: 0.125em;
     font-size: 1.3em;
 }
 
 /* Change color of each text in sphere on hover   */
 .tagcloud--item {
-    color: #00ffffff;
-    text-transform: uppercase;
+    background-color: url('../media/svg/icons/figma_icon.svg');
 }
 
 .tagcloud--item:hover {

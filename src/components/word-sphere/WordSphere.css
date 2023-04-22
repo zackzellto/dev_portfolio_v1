@@ -1,9 +1,10 @@
-.word-shpere {
+.word-sphere {
     position: relative;
     top: 0;
     width: 100%;
     height: 100vh;
     display: flex;
+    font-family: 'Paytone One', sans-serif;
     justify-content: center;
     align-items: center;
     background: #ffffff;
@@ -13,7 +14,6 @@
     display: inline-block;
     top: 0;
     left: 0;
-    font-family: 'Paytone One', sans-serif;
     font-weight: 600;
     letter-spacing: 0.0625em;
     font-size: 1.3em;

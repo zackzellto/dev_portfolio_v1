@@ -6,7 +6,7 @@ const WordSphere = () => {
   useEffect(() => {
     return () => {
       const container = ".tagcloud";
-      const icons = [
+      const texts = [
         "HTML",
         "CSS",
         "TypeScript",
@@ -31,7 +31,7 @@ const WordSphere = () => {
       };
 
       // eslint-disable-next-line @typescript-eslint/no-unsafe-call
-      TagCloud(container, icons, options);
+      TagCloud(container, texts, options);
     };
   }, []);
 
