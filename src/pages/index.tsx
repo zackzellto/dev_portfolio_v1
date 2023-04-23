@@ -12,9 +12,9 @@ const Home: NextPage = () => {
         <meta name="description" content="Portfolio Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      <main className="flex min-h-screen flex-col items-center justify-center bg-[#0C0216]">
-        <Navbar />
+      <Navbar />
+      <main className="font-[Poppins] flex min-h-screen bg-[#0C0216]">
+        
       </main>
     </>
   );
