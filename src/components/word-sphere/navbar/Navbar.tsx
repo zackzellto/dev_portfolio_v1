@@ -12,49 +12,43 @@ const Navbar = () => {
 
   return (
     <div>
-        <div className='flex  text-xl text-white space-x-16 scroll-smooth bg-[#0C0216] px-8 py-8 justify-center cursor-pointer'>
-            <ul className='flex '>
+        <div className='flex justify-center items-center text-[22px] text-white bg-[#0C0216] px-8 py-8 cursor-pointer'>
+            <ul className='hidden md:flex '>
             <li className='hover:text-[#8A2BE2] p-8'>
                     <Link href='/about'>About</Link>
                 </li>
-
                 <li className='hover:text-[#8A2BE2] p-8'>
                     <Link href='/portfolio'>Portfolio</Link>
-                </li>
-                
+                </li>                
                 <li className='hover:text-[#8A2BE2] p-8'>
                     <Link href='/experience'>Experience</Link>
                 </li>
-
                 <li className='hover:text-[#8A2BE2] p-8'>
                     <Link href='/resume'>Resume</Link>
                 </li>
             </ul>
-            <div onClick={handleNav} className='block md:hidden'>
-                {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}                
-            </div>
-            <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full' : 'fixed left-[100%]'}>
-                <ul className='flex flex-col justify-center items-center h-full'>
-                    <li className='hover:text-[#8A2BE2] p-8'>
+        </div>
+        <div onClick={handleNav} className='block md:hidden text-white bg-[#0C0216] px-8 py-8 cursor-pointer'>
+            {nav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />}                
+        </div>
+            <div className={!nav ? 'fixed w-[30%] text-white h-full' : 'fixed right-[100%]'}>
+                <ul className='flex flex-col justify-center items-center h-full md:hidden'>
+                    <li className='hover:text-[#8A2BE2] p-8 '>
                         <Link href='/about'>About</Link>
                     </li>
-
                     <li className='hover:text-[#8A2BE2] p-8'>
                         <Link href='/portfolio'>Portfolio</Link>
                     </li>
-
                     <li className='hover:text-[#8A2BE2] p-8'>
                         <Link href='/experience'>Experience</Link>
                     </li>
-
                     <li className='hover:text-[#8A2BE2] p-8'>
                         <Link href='/resume'>Resume</Link>
                     </li>
                 </ul>
                 </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Navbar
