@@ -23,7 +23,7 @@ const Navbar = () => {
             <Link href="/experience">Experience</Link>
           </li>
           <li className="p-8 hover:text-[#8A2BE2]">
-            <Link href="/resume">Resume</Link>
+            <Link href="/resume">Résumé</Link>
           </li>
         </ul>
       </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
             <Link href="/experience">Experience</Link>
           </li>
           <li className="p-8 hover:text-[#8A2BE2] ">
-            <Link href="/resume">Resume</Link>
+            <Link href="/resume">Résumé</Link>
           </li>
         </ul>
       </div>
