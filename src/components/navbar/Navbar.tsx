@@ -27,7 +27,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="bg-[#000000] px-32 py-32">
+      <div className="bg-[#000000] px-32 py-32 md:hidden">
         <button
           onClick={handleNav}
           className="fixed left-[87%] cursor-pointer bg-[#000000]  text-white md:hidden"
