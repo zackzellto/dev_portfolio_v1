@@ -27,10 +27,10 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="bg-[#0C0216]">
+      <div className="bg-[#0C0216] px-32 py-32">
         <button
           onClick={handleNav}
-          className="fixed left-[90%] cursor-pointer bg-[#0C0216] px-16 py-16 text-white md:hidden"
+          className="fixed left-[87%] cursor-pointer bg-[#0C0216]  text-white md:hidden"
         >
           {nav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />}
         </button>
@@ -38,7 +38,7 @@ const Navbar = () => {
       <div
         className={
           !nav
-            ? " absolute left-[70%] top-48 block w-[30%] bg-[#0C0216] text-white"
+            ? " absolute left-[67%] top-auto block w-[30%] bg-[#0C0216] text-white"
             : "fixed left-[100%]"
         }
       >
