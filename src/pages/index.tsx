@@ -1,8 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import WordSphere from "../components/word-sphere/WordSphere";
-import Navbar from "~/components/word-sphere/navbar/Navbar";
+import Navbar from "~/components/navbar/Navbar";
 
 const Home: NextPage = () => {
   return (
@@ -13,9 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main className="font-[Poppins] flex min-h-screen bg-[#0C0216]">
-        
-      </main>
+      <main className="flex min-h-screen bg-[#000000] font-[Poppins]"></main>
     </>
   );
 };
