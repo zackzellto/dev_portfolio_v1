@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="hidden items-center justify-center bg-[#000000] px-8 py-8 text-[22px] text-white md:flex">
+      <div className="hidden items-center justify-center bg-[#000000]  text-[22px] text-white md:flex">
         <ul className="hidden md:flex ">
           <li className="text-shadow-md cursor-pointer p-8 duration-500 hover:scale-110 hover:text-[#8A2BE2] hover:transition-all">
             <Link href="/about">About</Link>
