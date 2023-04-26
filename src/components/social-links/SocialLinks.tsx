@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import {
   AiFillGithub,
@@ -11,25 +12,24 @@ const SocialLinks = () => {
     <div className="md:mt-128">
       <div className="xs:hidden md:fixed md:left-128 md:h-[50%] md:w-[2px] md:bg-white ">
         <AiFillGithub
-          className="fixed left-106 top-[61%] h-48 w-48 text-white md:mt-64"
+          className="fixed right-16 top-[64%] h-32 w-32 text-white duration-500 hover:scale-110 hover:transition-all md:left-106 md:top-[61%] md:mt-64 md:h-48 md:w-48 md:cursor-pointer"
           size={20}
         />
         <AiFillLinkedin
-          className="fixed left-106 top-[66%] h-48 w-48 text-white md:mt-64"
+          className="fixed right-16 top-[70%] h-32 w-32 text-white duration-500 hover:scale-110 hover:text-[#0077b5] hover:transition-all md:left-106 md:top-[66%] md:mt-64 md:h-48 md:w-48 md:cursor-pointer"
           size={20}
         />
         <AiFillTwitterCircle
-          className="fixed left-106 top-[71%] h-48 w-48 text-white md:mt-64"
+          className="fixed right-16 top-[76%] h-32 w-32 text-white duration-500 hover:scale-110 hover:text-[#1DA1F2] hover:transition-all md:left-106 md:top-[71%] md:mt-64 md:h-48 md:w-48 md:cursor-pointer"
           size={20}
         />
-        <FaDiscord className="fixed left-106 top-[76%] h-48 w-48 text-white md:mt-64" />
+        <FaDiscord className="fixed right-16 top-[82%] h-32 w-32 text-white duration-500 hover:scale-110 hover:text-[#7289DA] hover:transition-all md:left-106 md:top-[76%] md:mt-64 md:h-48 md:w-48 md:cursor-pointer" />
       </div>
 
-      <div className="xs:hidden md:fixed md:right-128 md:h-[50%] md:w-[2px] md:bg-white">
-        <div className="fixed right-114 top-[61%] h-48 w-48 rotate-90 text-lg text-[#8A2BE2] md:mt-64">
-          zackzelltodev@gmail.com
+      <div className="md:fixed md:right-128 md:h-[50%] md:w-[2px] md:bg-white">
+        <div className="xs:hidden md:fixed md:right-114 md:top-[61%] md:mt-64 md:h-48 md:w-48 md:rotate-90 md:text-lg md:text-[#8A2BE2]">
+          <Link href={""}>zackzelltodev@gmail.com</Link>
         </div>
-        ;
       </div>
     </div>
   );
