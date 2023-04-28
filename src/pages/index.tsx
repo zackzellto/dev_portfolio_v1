@@ -13,8 +13,9 @@ const Home: NextPage = () => {
         <meta name="description" content="Portfolio Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
-      <main className="flex min-h-screen bg-[#000000] font-[Poppins]">
+
+      <main className="flex min-h-screen bg-[#1c0529] font-[Poppins]">
+        {/* <Navbar /> */}
         <Greeting />
         <SocialLinks />
       </main>

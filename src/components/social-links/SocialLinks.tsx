@@ -3,31 +3,34 @@ import React from "react";
 import {
   AiFillGithub,
   AiFillLinkedin,
+  AiFillMail,
   AiFillTwitterCircle,
 } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
 
 const SocialLinks = () => {
   return (
-    <div className="md:mt-128">
-      <div className="xs:hidden md:fixed md:left-128 md:h-[50%] md:w-[2px] md:bg-white ">
+    <div className="mt-96">
+      <div className="fixed left-24 top-[28px] h-[70%] w-[1px] bg-white">
         <AiFillGithub
-          className="fixed right-16 top-[64%] h-32 w-32 text-white duration-500 hover:scale-110 hover:transition-all md:left-106 md:top-[61%] md:mt-64 md:h-48 md:w-48 md:cursor-pointer"
+          className="fixed left-[13px] top-[70%] mt-32 h-24 w-24 cursor-pointer text-white duration-500 hover:scale-110 hover:transition-all"
           size={20}
         />
         <AiFillLinkedin
-          className="fixed right-16 top-[70%] h-32 w-32 text-white duration-500 hover:scale-110 hover:text-[#0077b5] hover:transition-all md:left-106 md:top-[66%] md:mt-64 md:h-48 md:w-48 md:cursor-pointer"
+          className="fixed left-[13px] top-[75%] mt-32 h-24 w-24 cursor-pointer text-white duration-500 hover:scale-110 hover:text-[#0077b5] hover:transition-all"
           size={20}
         />
         <AiFillTwitterCircle
-          className="fixed right-16 top-[76%] h-32 w-32 text-white duration-500 hover:scale-110 hover:text-[#1DA1F2] hover:transition-all md:left-106 md:top-[71%] md:mt-64 md:h-48 md:w-48 md:cursor-pointer"
+          className="fixed left-[13px] top-[80.5%] mt-32 h-24 w-24 cursor-pointer text-white duration-500 hover:scale-110 hover:text-[#1DA1F2] hover:transition-all"
           size={20}
         />
-        <FaDiscord className="fixed right-16 top-[82%] h-32 w-32 text-white duration-500 hover:scale-110 hover:text-[#7289DA] hover:transition-all md:left-106 md:top-[76%] md:mt-64 md:h-48 md:w-48 md:cursor-pointer" />
+        <FaDiscord className="fixed left-[13px] top-[85%] mt-[34px] h-24 w-24 cursor-pointer text-white duration-500 hover:scale-110 hover:text-[#7289DA] hover:transition-all" />
+        <AiFillMail className="fixed left-[13px] top-[90%] mt-32 h-24 w-24 cursor-pointer text-white duration-500 hover:scale-110 hover:text-[#b57ceb] hover:transition-all" />
+        <div className="fixed left-24 h-[50%] w-[1px] bg-white"></div>
       </div>
 
-      <div className="md:fixed md:right-128 md:h-[50%] md:w-[2px] md:bg-white">
-        <div className="xs:hidden md:fixed md:right-114 md:top-[61%] md:mt-64 md:h-48 md:w-48 md:rotate-90 md:text-lg md:text-[#8A2BE2]">
+      <div className="fixed left-24 hidden h-[10%] w-[1px] bg-white">
+        <div className="fixed right-14 top-[57%] mt-64 h-48 w-48 rotate-90 text-sm text-[#b57ceb]">
           <Link href={""}>zackzelltodev@gmail.com</Link>
         </div>
       </div>

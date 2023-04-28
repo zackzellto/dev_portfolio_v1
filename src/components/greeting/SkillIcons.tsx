@@ -1,6 +1,4 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-/* eslint-disable react/jsx-key */
 import React from "react";
 import BootstrapIcon from "../../media/svg/icons/bootstrap_icon.svg";
 import CssIcon from "../../media/svg/icons/css_icon.svg";
@@ -25,107 +23,91 @@ import Image from "next/image";
 
 const SkillIcons = () => {
   return (
-    <div className="absolute left-[15%] top-[35%] flex flex-col flex-wrap items-center justify-center md:left-[15%] md:top-[35%] ">
-      <div className="flex px-16 py-16 ">
+    <div className="absolute top-[40%] flex flex-col flex-wrap items-center justify-center">
+      <div className="px-2 py-2 px-0 py-0 flex items-center">
         <Image
           src={BootstrapIcon}
           alt="Bootstrap Icon"
-          className="m-8 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
-        <Image
-          src={CssIcon}
-          alt="CSS Icon"
-          className="m-4 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
-        />
+        <Image src={CssIcon} alt="CSS Icon" className="m-4  m-8 h-24 w-24" />
         <Image
           src={DockerIcon}
           alt="Docker Icon"
-          className="m-8 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
         <Image
           src={FigmaIcon}
           alt="Figma Icon"
-          className="m-4 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
         <Image
           src={FlaskIcon}
           alt="Flask Icon"
-          className="m-8 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
-        <Image
-          src={GimpIcon}
-          alt="Gimp Icon"
-          className="m-4 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
-        />
+        <Image src={GimpIcon} alt="Gimp Icon" className="m-4  m-8 h-24 w-24" />
       </div>
-      <div className="flex px-8 py-8 ">
-        <Image
-          src={GitIcon}
-          alt="Git Icon"
-          className="m-8 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
-        />
+      <div className="px-2 py-2 px-0 py-0 flex">
+        <Image src={GitIcon} alt="Git Icon" className="m-4  m-8 h-24 w-24" />
         <Image
           src={GoogleIcon}
           alt="Google Icon"
-          className="m-4 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
-        <Image
-          src={HtmlIcon}
-          alt="HTML Icon"
-          className="m-8 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
-        />
+        <Image src={HtmlIcon} alt="HTML Icon" className="m-4  m-8 h-24 w-24" />
         <Image
           src={JavaScriptIcon}
           alt="JavaScript Icon"
-          className="m-4 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
         <Image
           src={MongoDBIcon}
           alt="MongoDB Icon"
-          className="m-8 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
         <Image
           src={NextJSIcon}
           alt="NextJS Icon"
-          className="m-4 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
       </div>
-      <div className="flex px-8 py-8 ">
+      <div className="px-2 py-2 px-0 py-0 flex">
         <Image
           src={NodeJSIcon}
           alt="NodeJS Icon"
-          className="m-8 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
         <Image
           src={PhotoshopIcon}
           alt="Photoshop Icon"
-          className="m-4 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
         <Image
           src={PostgreSQLIcon}
           alt="PostgreSQL Icon"
-          className="m-8 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
         <Image
           src={PythonIcon}
           alt="Python Icon"
-          className="m-4 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
 
         <Image
           src={ReactIcon}
           alt="React Icon"
-          className="m-8 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
         <Image
           src={TailwindCSSIcon}
           alt="TailwindCSS Icon"
-          className="m-4 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
         <Image
           src={TypeScriptIcon}
           alt="TypeScript Icon"
-          className="m-8 flex h-32 w-32 md:m-8 md:h-40 md:w-40"
+          className="m-4  m-8 h-24 w-24"
         />
       </div>
     </div>
