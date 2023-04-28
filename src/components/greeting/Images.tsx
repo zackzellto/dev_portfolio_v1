@@ -8,7 +8,7 @@ const MainImage = () => {
       <Image
         src={PortfolioMainImage}
         alt="Portfolio Main Image"
-        className="rounded-4xl fixed bottom-[-35px] h-auto w-[210px] max-w-xl py-48 shadow-2xl"
+        className="rounded-4xl shadow-4xl relative h-auto w-[240px] max-w-xl"
       />
     </div>
   );

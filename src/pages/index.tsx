@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <main className="flex min-h-screen bg-[#1c0529] font-[Poppins]">
         {/* <Navbar /> */}
         <Greeting />
-        <SocialLinks />
+        {/* <SocialLinks /> */}
       </main>
     </>
   );

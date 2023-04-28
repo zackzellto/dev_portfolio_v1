@@ -23,91 +23,91 @@ import Image from "next/image";
 
 const SkillIcons = () => {
   return (
-    <div className="absolute top-[40%] flex flex-col flex-wrap items-center justify-center">
+    <div className="relative top-[40%] flex flex-col flex-wrap items-center justify-center">
       <div className="px-2 py-2 px-0 py-0 flex items-center">
         <Image
           src={BootstrapIcon}
           alt="Bootstrap Icon"
-          className="m-4  m-8 h-24 w-24"
+          className="m-4 m-8 h-40 w-40"
         />
-        <Image src={CssIcon} alt="CSS Icon" className="m-4  m-8 h-24 w-24" />
+        <Image src={CssIcon} alt="CSS Icon" className="m-4  m-8 h-40 w-40" />
         <Image
           src={DockerIcon}
           alt="Docker Icon"
-          className="m-4  m-8 h-24 w-24"
+          className="m-4  m-8 h-40 w-40"
         />
         <Image
           src={FigmaIcon}
           alt="Figma Icon"
-          className="m-4  m-8 h-24 w-24"
+          className="m-4  m-8 h-40 w-40"
         />
         <Image
           src={FlaskIcon}
           alt="Flask Icon"
-          className="m-4  m-8 h-24 w-24"
+          className="m-4  m-8 h-40 w-40"
         />
-        <Image src={GimpIcon} alt="Gimp Icon" className="m-4  m-8 h-24 w-24" />
+        <Image src={GimpIcon} alt="Gimp Icon" className="m-4  m-8 h-40 w-40" />
       </div>
       <div className="px-2 py-2 px-0 py-0 flex">
-        <Image src={GitIcon} alt="Git Icon" className="m-4  m-8 h-24 w-24" />
-        <Image
+        <Image src={GitIcon} alt="Git Icon" className="m-4  m-8 h-40 w-40" />
+        {/* <Image
           src={GoogleIcon}
           alt="Google Icon"
-          className="m-4  m-8 h-24 w-24"
+          className="m-4  m-8 h-40 w-40"
+        /> */}
+        <Image
+          src={TypeScriptIcon}
+          alt="TypeScript Icon"
+          className="m-4  m-8 h-40 w-40"
         />
-        <Image src={HtmlIcon} alt="HTML Icon" className="m-4  m-8 h-24 w-24" />
+        <Image src={HtmlIcon} alt="HTML Icon" className="m-4  m-8 h-40 w-40" />
         <Image
           src={JavaScriptIcon}
           alt="JavaScript Icon"
-          className="m-4  m-8 h-24 w-24"
+          className="m-4  m-8 h-40 w-40"
         />
         <Image
           src={MongoDBIcon}
           alt="MongoDB Icon"
-          className="m-4  m-8 h-24 w-24"
+          className="m-4  m-8 h-40 w-40"
         />
         <Image
           src={NextJSIcon}
           alt="NextJS Icon"
-          className="m-4  m-8 h-24 w-24"
+          className="m-4  m-8 h-40 w-40"
         />
       </div>
       <div className="px-2 py-2 px-0 py-0 flex">
         <Image
           src={NodeJSIcon}
           alt="NodeJS Icon"
-          className="m-4  m-8 h-24 w-24"
+          className="m-4  m-8 h-40 w-40"
         />
         <Image
           src={PhotoshopIcon}
           alt="Photoshop Icon"
-          className="m-4  m-8 h-24 w-24"
+          className="m-4  m-8 h-40 w-40"
         />
         <Image
           src={PostgreSQLIcon}
           alt="PostgreSQL Icon"
-          className="m-4  m-8 h-24 w-24"
+          className="m-4  m-8 h-40 w-40"
         />
         <Image
           src={PythonIcon}
           alt="Python Icon"
-          className="m-4  m-8 h-24 w-24"
+          className="m-4  m-8 h-40 w-40"
         />
 
         <Image
           src={ReactIcon}
           alt="React Icon"
-          className="m-4  m-8 h-24 w-24"
+          className="m-4  m-8 h-40 w-40"
         />
         <Image
           src={TailwindCSSIcon}
           alt="TailwindCSS Icon"
-          className="m-4  m-8 h-24 w-24"
-        />
-        <Image
-          src={TypeScriptIcon}
-          alt="TypeScript Icon"
-          className="m-4  m-8 h-24 w-24"
+          className="m-4  m-8 h-40 w-40"
         />
       </div>
     </div>
